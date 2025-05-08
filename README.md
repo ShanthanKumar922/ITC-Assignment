@@ -3,19 +3,29 @@ This project is an AI-powered assistant that allows users to query ITC Limited�
 
 ## 📁 Project Structure:
 ITC assignment/
+
 │
+
 ├── app.py                 # Streamlit app
+
 ├── query_llm.py          # Code to load FAISS index and query with LLM
+
 ├── pdf_scraper.py        # Extracts text, chunks it, and creates FAISS index
+
 ├── itc_financial_report.pdf  # PDF file containing ITC report
+
 ├── faiss.idx             # Saved FAISS index (auto-generated)
+
 ├── texts.npy             # Saved text chunks (auto-generated)
+
 ├── metas.npy             # Saved metadata (auto-generated)
+
 └── README.md             # You are here!
 
 ### 🧰 Setup Instructions
 ## 1. 📦 Install Required Libraries
 Use a virtual environment and install the required packages:
+
 ```pip install streamlit sentence-transformers faiss-cpu numpy pymupdf```
 
 ## 2. 📄 Add the Financial Report PDF
