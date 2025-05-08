@@ -1,0 +1,10 @@
+openai
+PyMuPDF
+sentence-transformers
+faiss-cpu
+yfinance
+streamlit
+requests
+psycopg2-binary
+pandas
+numpy
